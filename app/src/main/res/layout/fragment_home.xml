@@ -15,6 +15,7 @@
 
        <View android:layout_width="match_parent"
              android:layout_height="300dp"
+             android:id="@+id/dashview"
              android:background="@color/colorPrimary"
              app:layout_constraintTop_toTopOf="parent"
              app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +27,7 @@
        <TextView android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:id="@+id/dash"
+                 android:fontFamily="sans-serif-thin"
                  android:text="DASHBOARD"
                  android:textSize="20sp"
                  android:layout_marginTop="20dp"
@@ -159,6 +161,16 @@
            />
 
        </LinearLayout>
+
+
+
+       <androidx.core.widget.NestedScrollView
+               android:layout_width="match_parent"
+               android:layout_below="@+id/dashview"
+               android:layout_height="wrap_content">
+
+
+       </androidx.core.widget.NestedScrollView>
 
    </RelativeLayout>
 
