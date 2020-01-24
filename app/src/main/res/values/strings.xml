@@ -3,4 +3,15 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Expenses">Expenses</string>
+    <string name="From">From</string>
+    <string name="From_Date">Jan 29</string>
+    <string name="To">To</string>
+    <string name="To_Date">Feb 29</string>
+    <string name="savings_label">Savings</string>
+    <string name="Budget">Budget</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="Amount">500$</string>
+    <string name="amount_left">Amount Used</string>
+    <string name="down_slope">you have under-budgeted </string>
 </resources>
