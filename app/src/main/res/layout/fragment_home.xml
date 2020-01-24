@@ -85,6 +85,7 @@
                          android:layout_height="wrap_content"/>
                <TextView android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
+                         android:layout_toStartOf="@+id/expensetext"
                          android:layout_alignParentEnd="true"
                          android:text="@string/savings_label"
                          android:id="@+id/savingstext"
@@ -169,8 +170,8 @@
                         android:id="@+id/seekbar"
                         android:layout_below="@+id/view"
                         android:layout_marginTop="30dp"
-                        android:layout_toRightOf="@+id/fromDate"
-                        android:layout_toLeftOf="@+id/ToDate"
+                        android:layout_toEndOf="@+id/fromDate"
+                        android:layout_toStartOf="@id/ToDate"
                         android:layout_centerHorizontal="true"
 
                />
