@@ -182,7 +182,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="10dp0dp"
+            android:layout_height="10dp"
             android:layout_below="@+id/carddashboard"
             android:layout_marginTop="10dp"
 
