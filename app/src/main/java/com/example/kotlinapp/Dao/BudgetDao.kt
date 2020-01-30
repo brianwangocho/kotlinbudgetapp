@@ -13,6 +13,6 @@ interface BudgetDao {
     suspend fun getBudget(): List<Budget>
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertorUpdateTransaction(budget :Budget):Long
-    @Query("SELECT * from  budgetg WHERE  creation_date = :createdOn")
+    @Query("SELECT * from  budget WHERE  creation_date = :createdOn")
     suspend fun getbudgetByDate(createdOn :String):Budget
 }
