@@ -23,19 +23,19 @@ class TransactionFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var view = inflater.inflate(R.layout.fragment_transaction, container, false)
+        val view = inflater.inflate(R.layout.fragment_transaction, container, false)
 
 
-        var myAdapter = MyAdapter(arrayOf("test","make","work"))
-        var recycler = view.findViewById<RecyclerView>(R.id.transactionsrecyclerview)
+        val myAdapter = MyAdapter(arrayOf("test","make","work"))
+        val recycler = view.findViewById<RecyclerView>(R.id.transactionsrecyclerview)
         recycler.adapter=myAdapter
-        var layoutManager = LinearLayoutManager(activity)
+        val layoutManager = LinearLayoutManager(activity)
         layoutManager.orientation = LinearLayoutManager.VERTICAL
         recycler.layoutManager = layoutManager
 
 
 
-        return view;
+        return view
 
     }
 

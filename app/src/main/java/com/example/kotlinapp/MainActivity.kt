@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.framelayout,homeFragment)
-                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                       .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                         .commit()
                 }
 
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.framelayout,transactionFragment)
-                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                       .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                         .commit()
                 }
 
