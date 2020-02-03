@@ -7,7 +7,7 @@ import java.util.*
 
 interface ApiService{
 
-    @GET("placeholder/user/user/{userId}")
+    @GET("placeholder/user/{userId}")
     suspend fun getUser(
         @Path("userId")userId :String)
             :User
