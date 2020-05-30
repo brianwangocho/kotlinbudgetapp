@@ -28,7 +28,7 @@ class profileFragment : Fragment() {
         profielViewModel.user.observe(viewLifecycleOwner, Observer {
             println("DEBUG:${it}")
         })
-        profielViewModel.setUserId("1");
+        profielViewModel.setUserId("1")
         return  view
     }
 

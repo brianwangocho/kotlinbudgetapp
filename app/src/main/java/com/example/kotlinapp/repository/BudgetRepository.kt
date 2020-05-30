@@ -18,6 +18,7 @@ object BudgetRepository{
 
     fun getUser(userId:String):LiveData<User>{
         /// (2) initialize the job first
+        /// we need to return dataType LiveDate<User>
         job =  Job()
             return object :LiveData<User>(){
                 override fun onActive() {
